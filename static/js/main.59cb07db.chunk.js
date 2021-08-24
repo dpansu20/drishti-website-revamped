@@ -1,0 +1,2 @@
+(this["webpackJsonpdrishti-website-revamped"]=this["webpackJsonpdrishti-website-revamped"]||[]).push([[0],{10:function(e,t,i){"use strict";i.r(t);i(1);var r=i(3),n=i.n(r),s=(i(8),i(0));var c=function(){return Object(s.jsx)("div",{children:Object(s.jsx)("h1",{children:"This is Navbar"})})};var d=function(){return Object(s.jsx)("div",{children:Object(s.jsx)(c,{})})};n.a.render(Object(s.jsx)(d,{}),document.getElementById("root"))},8:function(e,t,i){}},[[10,1,2]]]);
+//# sourceMappingURL=main.59cb07db.chunk.js.map
