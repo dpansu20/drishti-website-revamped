@@ -1,1 +1,2 @@
-# drishti-website-revamped
+# Drishti Website
+### Built on ReactJS
