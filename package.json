@@ -2,7 +2,7 @@
   "name": "drishti-website-revamped",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dpansu20.github.io/drishti-website-revamped/deepanshu",
+  "homepage": "http://dpansu20.github.io/drishti-website-revamped",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
