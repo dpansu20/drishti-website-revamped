@@ -1,0 +1,26 @@
+.navBar{
+    width: 90%;
+    margin-left: 5%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navBar-brand{
+    display: flex;
+}
+
+.svnit-logo{
+    height: 9vh;
+    width: auto;
+}
+
+a.drishti-contain{
+    padding-top: 0.5vh;
+    padding-left: 16px;
+}
+
+.drishti-logo{
+    height: 8.5vh;
+    width: auto;
+}
