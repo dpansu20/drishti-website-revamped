@@ -11,8 +11,12 @@ body{
   background-position: center;
 }
 
-@media only screen and (width: 768px) {
+@media only screen and (max-width: 768px) {
   .section-1{
     background-image: url("../images/section_1_back_portrait.jpg");
   }  
+}
+
+@media only screen and (max-width: 436px) {
+  
 }

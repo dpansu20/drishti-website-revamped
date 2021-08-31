@@ -1,9 +1,9 @@
 import React from "react"
 
-import Svnit from "../images/svnit.png"
-import DrishtiNav from "../images/drishti_white.png"
+import Svnit from "../../images/svnit.png"
+import DrishtiNav from "../../images/drishti_white.png"
 
-import "../css/navbar.css"
+import "../../css/navbar.css"
 
 function Navbar() {
     return (
