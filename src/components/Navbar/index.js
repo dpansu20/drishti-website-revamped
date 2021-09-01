@@ -5,7 +5,17 @@ import DrishtiNav from "../../images/drishti_white.png"
 
 import "../../css/navbar.css"
 
-function Navbar() {
+
+function Options(props) {
+    return (
+        <a href={props.link}>
+            {props.obj}
+        </a>
+    )
+};
+
+
+function Navbar(props) {
     return (
         <nav className="navBar">
             <div className="navBar-brand">
@@ -17,7 +27,11 @@ function Navbar() {
                 </a>
             </div>
             <div className="navBar-menu">
-                
+                {props.menus.map(
+                    function(item, i){
+                        return <Options obj={item.name} link={item.link} key={i} />;
+                    })
+                }
             </div>
         </nav>
     )

@@ -1,26 +1,53 @@
 .navBar{
     width: 88%;
-    margin-left: 6%;
+    padding: 0 6%;
     height: 13vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .navBar-brand{
     display: flex;
 }
 
 .svnit-logo{
-    height: 9vh;
+    /* display: none; */
+    height: 7vh;
     width: auto;
 }
 
 a.drishti-contain{
     padding-top: 0.5vh;
-    padding-left: 16px;
+    padding-left: 14px;
 }
 
 .drishti-logo{
-    height: 8.5vh;
+    height: 6.5vh;
     width: auto;
+}
+
+.navBar-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar-menu a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    color: #f0f0ff;
+    border-bottom: 0.16em solid transparent;
+    font-family: 'Lato', 'Open Sans', sans-serif;
+    padding: 0.25em 10px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.navBar-menu a:hover{
+    border-bottom: 0.16em solid #ffec44;
+    color: #ffec44;
+    transition: all 0.25s ease;
 }
