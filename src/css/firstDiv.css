@@ -14,6 +14,10 @@
     grid-template-columns: 1fr 1fr;
 }
 
+
+/* Left Section */
+
+
 .left-sec{
     width:100%;
     display: flex;
@@ -37,7 +41,7 @@
     left: 78.5%;
     bottom: 82%;
     width: 18%;
-    z-index: 40;
+    z-index: 60;
 }
 .robotic img.quadrilateral{
     position: absolute;
@@ -53,10 +57,43 @@
     width: 25%;
     z-index: 40;
 }
+.robotic img.striped{
+    position: absolute;
+    left: 10%;
+    bottom: 42%;
+    width: 23%;
+    z-index: 40;
+}
+
+
+/* Right Section */
+
 
 .right-sec{
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+.title{
+    margin-left: 4em;
+}
+.title h1{
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 700;
+    color: #f8fbfd;
+    font-size: 8em;
+    text-transform: uppercase;
+    margin: 0;
+}
+.title h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #f8fbfd;
+    font-size: 2em;
+    margin: 0.3em 0;
+}
+
 
 
 
