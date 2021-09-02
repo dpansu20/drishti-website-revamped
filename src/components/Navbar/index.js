@@ -1,7 +1,7 @@
 import React from "react"
 
-import Svnit from "../../images/svnit.avif"
-import DrishtiNav from "../../images/drishti_white.avif"
+import Svnit from "../../images/svnit.webp"
+import DrishtiNav from "../../images/drishti_white.webp"
 
 import "../../css/navbar.css"
 
