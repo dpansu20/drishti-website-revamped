@@ -9,11 +9,11 @@ import "../css/firstDiv.css"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import Hand from "../images/firstDiv/robo_hand.avif"
-import IndexCircle from "../images/firstDiv/index_circle.avif"
-import Quad from "../images/firstDiv/quadrilateral.avif"
-import ThumbCircle from "../images/firstDiv/thumb_circle.avif"
-import Striped from "../images/firstDiv/striped.avif"
+import Hand from "../images/firstDiv/robo_hand.webp"
+import IndexCircle from "../images/firstDiv/index_circle.webp"
+import Quad from "../images/firstDiv/quadrilateral.webp"
+import ThumbCircle from "../images/firstDiv/thumb_circle.webp"
+import Striped from "../images/firstDiv/striped.webp"
 
 
 function Drishti(props) {
