@@ -20,4 +20,16 @@
     <div id="root"></div>
     
   </body>
+
+  <script>
+    let lastKnownState = window.localStorage.getItem(`lastKnown_${window.location.href}`);
+    
+    lastKnownState = lastKnownState && JSON.parse(lastKnownState);
+    
+    if (lastKnownState) {
+      document.getElementById('content').innerHTML = lastKnownState.data;
+      window.hasRestoredState = true;
+    }
+  </script>
+
 </html>
