@@ -5,8 +5,6 @@ import "react-typed/dist/animatedCursor.css"
 
 import Navbar from "../components/Navbar"
 
-import "../css/firstDiv.css"
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Hand from "../images/firstDiv/robo_hand.webp"
@@ -14,6 +12,7 @@ import IndexCircle from "../images/firstDiv/index_circle.webp"
 import Quad from "../images/firstDiv/quadrilateral.webp"
 import ThumbCircle from "../images/firstDiv/thumb_circle.webp"
 import Striped from "../images/firstDiv/striped.webp"
+
 
 
 function Drishti(props) {
@@ -25,11 +24,11 @@ function Drishti(props) {
             <div className="container">
                 <div className="left-sec">
                     <div className="robotic">
-                        <img className="robo-hand" src={Hand} alt="Robotic Arm" />
-                        <img className="index-circle" src={IndexCircle} alt="Circle" />
-                        <img className="quadrilateral" src={Quad} alt="Square" />
-                        <img className="thumb-circle" src={ThumbCircle} alt="Circle" />
-                        <img className="striped" src={Striped} alt="Striped Circle" />
+                        <img className="robo-hand translate-robo" src={Hand} alt="Robotic Arm" />
+                        <img className="index-circle zoom-index" src={IndexCircle} alt="Circle" />
+                        <img className="quadrilateral rotate-quad" src={Quad} alt="Square" />
+                        <img className="thumb-circle translate-thumb" src={ThumbCircle} alt="Circle" />
+                        <img className="striped rotate-fade-strip" src={Striped} alt="Striped Circle" />
                     </div>
                 </div>
                 <div className="right-sec">
