@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/drishti-website-revamped/static/css/main.85ae78f1.chunk.css",
-    "main.js": "/drishti-website-revamped/static/js/main.9a98f35a.chunk.js",
-    "main.js.map": "/drishti-website-revamped/static/js/main.9a98f35a.chunk.js.map",
+    "main.css": "/drishti-website-revamped/static/css/main.8785db92.chunk.css",
+    "main.js": "/drishti-website-revamped/static/js/main.d3442988.chunk.js",
+    "main.js.map": "/drishti-website-revamped/static/js/main.d3442988.chunk.js.map",
     "runtime-main.js": "/drishti-website-revamped/static/js/runtime-main.effeb437.js",
     "runtime-main.js.map": "/drishti-website-revamped/static/js/runtime-main.effeb437.js.map",
-    "static/js/2.6cc4505d.chunk.js": "/drishti-website-revamped/static/js/2.6cc4505d.chunk.js",
-    "static/js/2.6cc4505d.chunk.js.map": "/drishti-website-revamped/static/js/2.6cc4505d.chunk.js.map",
+    "static/css/2.f4bff4e9.chunk.css": "/drishti-website-revamped/static/css/2.f4bff4e9.chunk.css",
+    "static/js/2.e915a237.chunk.js": "/drishti-website-revamped/static/js/2.e915a237.chunk.js",
+    "static/js/2.e915a237.chunk.js.map": "/drishti-website-revamped/static/js/2.e915a237.chunk.js.map",
     "index.html": "/drishti-website-revamped/index.html",
-    "static/css/main.85ae78f1.chunk.css.map": "/drishti-website-revamped/static/css/main.85ae78f1.chunk.css.map",
-    "static/js/2.6cc4505d.chunk.js.LICENSE.txt": "/drishti-website-revamped/static/js/2.6cc4505d.chunk.js.LICENSE.txt",
-    "static/media/drishti_white.ef9e43c5.png": "/drishti-website-revamped/static/media/drishti_white.ef9e43c5.png",
-    "static/media/robo_hand.40d33976.png": "/drishti-website-revamped/static/media/robo_hand.40d33976.png",
-    "static/media/firstDiv.css": "/drishti-website-revamped/static/media/section_1_back_portrait.498a01e0.jpg",
-    "static/media/striped.19c4dfcd.png": "/drishti-website-revamped/static/media/striped.19c4dfcd.png",
-    "static/media/svnit.86c161ca.png": "/drishti-website-revamped/static/media/svnit.86c161ca.png",
-    "static/media/thumb_circle.2d5a8d28.png": "/drishti-website-revamped/static/media/thumb_circle.2d5a8d28.png"
+    "static/css/2.f4bff4e9.chunk.css.map": "/drishti-website-revamped/static/css/2.f4bff4e9.chunk.css.map",
+    "static/css/main.8785db92.chunk.css.map": "/drishti-website-revamped/static/css/main.8785db92.chunk.css.map",
+    "static/js/2.e915a237.chunk.js.LICENSE.txt": "/drishti-website-revamped/static/js/2.e915a237.chunk.js.LICENSE.txt",
+    "static/media/drishti_white.39ab8903.avif": "/drishti-website-revamped/static/media/drishti_white.39ab8903.avif",
+    "static/media/robo_hand.fcbc6282.avif": "/drishti-website-revamped/static/media/robo_hand.fcbc6282.avif",
+    "static/media/firstDiv.css": "/drishti-website-revamped/static/media/section_1_back_portrait.49b399a0.avif",
+    "static/media/striped.a44ed775.avif": "/drishti-website-revamped/static/media/striped.a44ed775.avif",
+    "static/media/svnit.d021c871.avif": "/drishti-website-revamped/static/media/svnit.d021c871.avif"
   },
   "entrypoints": [
     "static/js/runtime-main.effeb437.js",
-    "static/js/2.6cc4505d.chunk.js",
-    "static/css/main.85ae78f1.chunk.css",
-    "static/js/main.9a98f35a.chunk.js"
+    "static/css/2.f4bff4e9.chunk.css",
+    "static/js/2.e915a237.chunk.js",
+    "static/css/main.8785db92.chunk.css",
+    "static/js/main.d3442988.chunk.js"
   ]
 }
