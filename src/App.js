@@ -3,6 +3,8 @@ import React from "react"
 import Drishti from "./Home/drishti"
 // import Footer from "./components/Footer"
 
+import "./css/homepage.css"
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faChevronDown, faInfoCircle } from '@fortawesome/free-solid-svg-icons'

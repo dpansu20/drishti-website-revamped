@@ -66,6 +66,56 @@
 }
 
 
+
+/* Animations */
+.translate-robo{
+    animation: move-right 0.6s ease-in;
+    -webkit-animation: move-right 0.6s ease-in;
+}
+@keyframes move-right{
+    from { opacity: 0; transform: translateX(-100%); -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); }
+    to { opacity: 1; transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+}
+.zoom-index{
+    animation: zoom 2.4s ease;
+    -webkit-animation: zoom 2.4s ease;
+}
+@keyframes zoom{
+    0%{ opacity: 0;}
+    65%{ width: 0%; opacity: 0;}
+    100%{ width: 18%; opacity: 1;}
+}
+.rotate-quad{
+    animation: rotate-quad 2.4s ease-in;
+    -webkit-animation: rotate-quad 2.4s ease-in;
+}
+@keyframes rotate-quad{
+    0%{ opacity: 0;}
+    28%{ opacity: 0; transform: rotate(-24deg) translateX(-10%); -webkit-transform: rotate(-24deg) translateX(-10%); -moz-transform: rotate(-24deg) translateX(-10%); -ms-transform: rotate(-24deg) translateX(-10%); -o-transform: rotate(-24deg) translateX(-10%); }
+    75%{ opacity: 1; transform: rotate(0deg) translateX(0); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); }
+}
+.translate-thumb{
+    animation: move-up 2.4s ease-in;
+    -webkit-animation: move-up 2.4s ease-in;
+}
+@keyframes move-up{
+    0%{ opacity: 0;}
+    25%{ opacity: 0; transform: translateY(30%); -webkit-transform: translateY(30%); -moz-transform: translateY(30%); -ms-transform: translateY(30%); -o-transform: translateY(30%); }
+    60%{ opacity: 1; transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
+}
+.rotate-fade-strip{
+    animation: rotate-fade 2.4s ease-in;
+    -webkit-animation: rotate-fade 2.4s ease-in;
+}
+@keyframes rotate-fade{
+    0%{ opacity: 0;}
+    55%{ opacity: 0; transform: rotate(22deg); -webkit-transform: rotate(22deg); -moz-transform: rotate(22deg); -ms-transform: rotate(22deg); -o-transform: rotate(22deg); }
+    90%{ opacity: 1; transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); }
+}
+
+
+
+
 /* Right Section */
 
 
