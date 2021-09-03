@@ -12,6 +12,7 @@ import IndexCircle from "../images/firstDiv/index_circle.webp"
 import Quad from "../images/firstDiv/quadrilateral.webp"
 import ThumbCircle from "../images/firstDiv/thumb_circle.webp"
 import Striped from "../images/firstDiv/striped.webp"
+import Arrow from "../images/firstDiv/arrow.gif"
 
 
 
@@ -49,8 +50,10 @@ function Drishti(props) {
                         </a>
                         <br/>
                         <a className={classnames('notices', props.notice[1])} href={props.notice[0]}>
-                            Important Notices 
+                            <span className="before">Important Notices</span>
+                            <span className="after">Exciting News coming up!!</span>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src={Arrow} alt="pointing arrow" />
                             <FontAwesomeIcon icon="info-circle" className="imp" />
                         </a>
                     </div>
