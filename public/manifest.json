@@ -6,8 +6,7 @@
     {
       "src": "favicon.ico",
       "sizes": "128x128",
-      "type": "image/x-icon",
-      "purpose": "any maskable"
+      "type": "image/x-icon"
     },
     {
       "src": "Icons/drishti@192.png",
