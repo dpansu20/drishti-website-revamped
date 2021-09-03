@@ -709,6 +709,44 @@
 
 
 
+// Gallery
+
+
+
+.gallery-div {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        #eeeeee 50vh,
+        #dddddf 50vh
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-div h1{
+    font-family: $ff-anonymous;
+    font-size: 6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Event Section
 
 
