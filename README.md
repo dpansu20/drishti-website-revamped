@@ -4,7 +4,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)]()
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)]()
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)]()
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-oxygen.svg)]()
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)]()
 
 <!-- [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)]() -->
 
