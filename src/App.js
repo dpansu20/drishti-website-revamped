@@ -3,8 +3,6 @@ import React from "react"
 import Drishti from "./Home/drishti"
 // import Footer from "./components/Footer"
 
-import "./css/homepage.css"
-
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faChevronDown, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
@@ -13,7 +11,7 @@ library.add(fab, faChevronDown, faInfoCircle)
 
 // Set this status value to 1, when notifying about new event, or some recent achievements Drishti.
 // Revert the value to 0, when notice is no more valid, or the event is over.
-var newStatus = 1;
+var newStatus = 0;
 
 
 // Route links and Options for Homepage

@@ -3,8 +3,6 @@ import React from "react"
 import Svnit from "../../images/svnit.webp"
 import DrishtiNav from "../../images/drishti_white.webp"
 
-import "../../css/navbar.css"
-
 
 function Options(props) {
     return (

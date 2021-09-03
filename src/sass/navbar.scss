@@ -37,9 +37,9 @@ a.drishti-contain{
     text-decoration: none;
     font-size: 1em;
     font-weight: 600;
-    color: #f0f0ff;
+    color: $white-nav;
     border-bottom: 0.16em solid transparent;
-    font-family: 'Lato', 'Open Sans', sans-serif;
+    font-family: $ff-lato-open;
     padding: 0.25em 10px;
     margin-left: 35px;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ a.drishti-contain{
 }
 
 .navBar-menu a:hover{
-    border-bottom: 0.16em solid #ffec44;
-    color: #ffec44;
+    border-bottom: 0.16em solid $red-pink;
+    color: $red-pink-light;
     transition: all 0.25s ease;
 }
