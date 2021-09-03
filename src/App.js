@@ -2,6 +2,7 @@ import React from "react"
 
 import Drishti from "./Home/drishti"
 import About from "./Home/about.jsx"
+import Gallery from "./Home/gallery.jsx"
 import Event from "./Home/event.jsx"
 import Project from "./Home/project.jsx"
 // import Footer from "./components/Footer"
@@ -27,10 +28,10 @@ let homeNav = [
     name: "About Us",
     link: "#about"
   },
-  // {
-  //   name: "Events",
-  //   link: "/events"
-  // },
+  {
+    name: "Gallery",
+    link: "#gallery"
+  },
   {
     name: "Projects",
     link: "#projects"
@@ -61,6 +62,7 @@ function App() {
     <div className="main">
       <Drishti nav={ homeNav } notice={notice} />
       <About />
+      <Gallery />
       <Event />
       <Project />
     </div>
