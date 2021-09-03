@@ -1,6 +1,9 @@
 import React from "react"
 
 import Drishti from "./Home/drishti"
+import About from "./Home/about.jsx"
+import Event from "./Home/event.jsx"
+import Project from "./Home/project.jsx"
 // import Footer from "./components/Footer"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -11,7 +14,7 @@ library.add(fab, faChevronDown, faInfoCircle)
 
 // Set this status value to 1, when notifying about new event, or some recent achievements Drishti.
 // Revert the value to 0, when notice is no more valid, or the event is over.
-var newStatus = 0;
+var newStatus = 1;
 
 
 // Route links and Options for Homepage
@@ -55,8 +58,11 @@ function App() {
   }
 
   return (
-    <div className="">
+    <div className="main">
       <Drishti nav={ homeNav } notice={notice} />
+      <About />
+      <Event />
+      <Project />
     </div>
   );
 }
