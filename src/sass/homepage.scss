@@ -129,18 +129,18 @@
     margin-left: 4em;
 }
 .title h1{
-    font-family: 'Anonymous Pro', monospace;
+    font-family: $ff-anonymous;
     font-weight: 700;
-    color: #f8fbfd;
+    color: $white-minor;
     font-size: 8em;
     text-transform: uppercase;
     margin: 0;
 }
 .title .typed{
     display: block;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $ff-josefin;
     font-weight: 400;
-    color: #f8fbfd;
+    color: $white-minor;
     font-size: 2em;
     margin: 0.3em 0;
 }
@@ -153,11 +153,11 @@
     margin-top: 3.8em;
     display: inline-block;
     text-decoration: none;
-    color: #f8fbfd;
-    background-color: #dc3c4d;
+    color: $white-minor;
+    background-color: $red-pink;
     font-size: 1.1em;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $ff-open;
     padding: 8px 24px 10px 34px;
     border-radius: 1.4em;
     position: relative;
@@ -185,21 +185,61 @@
     margin-bottom: 2.5em;
     display: inline-block;
     text-decoration: none;
-    color: #dc3c4d;
-    background-color: #f8fbfd;
+    color: $red-pink;
+    background-color: $white-minor;
     font-size: 1.1em;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $ff-open;
     padding: 4px 5px 10px 34px;
     border-radius: 1.4em;
-} 
+    opacity: 0.7;
+    position: relative;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.title a.notices .before{
+    display: inline-block;
+}
+.title a.notices .after{
+    display: none;
+}
 .title a.notices .imp{
     font-size: 2em;
     margin-bottom: -0.18em;
 }
+.blink img:hover + .imp{
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+            cursor: pointer;
+}
 .title a.notices:hover > .imp{
     -webkit-animation: rotate 1.4s linear infinite;
             animation: rotate 1.4s linear infinite;
+}
+.blink img{
+    position: absolute;
+    height: 150px;
+    transform: scaleY(-1) rotate(45deg);
+    -webkit-transform: scaleY(-1) rotate(45deg);
+    -moz-transform: scaleY(-1) rotate(45deg);
+    -ms-transform: scaleY(-1) rotate(45deg);
+    -o-transform: scaleY(-1) rotate(45deg);
+    bottom: -60px;
+    right: -155px;
+}
+.nopop img{
+    display: none;
+}
+
+.nopop:hover > span.before{
+    display: none;
+}
+
+.nopop:hover > span.after{
+    display: inline-block;
 }
 
 
