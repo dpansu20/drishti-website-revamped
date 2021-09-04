@@ -3,16 +3,16 @@ import classnames from "classnames"
 import Typed from "react-typed"
 import "react-typed/dist/animatedCursor.css"
 
-import Navbar from "../components/Navbar"
+import Navbar from "../../components/Navbar"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import Hand from "../images/firstDiv/robo_hand.webp"
-import IndexCircle from "../images/firstDiv/index_circle.webp"
-import Quad from "../images/firstDiv/quadrilateral.webp"
-import ThumbCircle from "../images/firstDiv/thumb_circle.webp"
-import Striped from "../images/firstDiv/striped.webp"
-import Arrow from "../images/firstDiv/arrow.gif"
+import Hand from "../../images/firstDiv/robo_hand.webp"
+import IndexCircle from "../../images/firstDiv/index_circle.webp"
+import Quad from "../../images/firstDiv/quadrilateral.webp"
+import ThumbCircle from "../../images/firstDiv/thumb_circle.webp"
+import Striped from "../../images/firstDiv/striped.webp"
+import Arrow from "../../images/firstDiv/arrow.gif"
 
 
 

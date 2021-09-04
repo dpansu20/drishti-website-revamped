@@ -1,0 +1,54 @@
+// Vendor Prefixes
+
+@mixin display-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin transform ($props) {
+    -webkit-transform: $props;
+    -moz-transform: $props;
+    -ms-transform: $props;
+    -o-transform: $props;
+    transform: $props;
+}
+
+@mixin transition ($arg...) {
+    -webkit-transition: $arg;
+    -moz-transition: $arg;
+    -ms-transition: $arg;
+    -o-transition: $arg;
+    transition: $arg;
+}
+
+
+// Properties
+
+@mixin flex-centered {
+    @include display-flex();
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin rotate ($deg) {
+    @include transform(rotate(#{$deg}deg));
+}
+
+@mixin translate ($x, $y) {
+    @include transform(translate($x, $y));
+}
+
+@mixin robo ($left, $bottom, $width, $z) {
+    position: absolute;
+    left: $left;
+    bottom: $bottom;
+    width: $width;
+    z-index: $z;
+}
+
+@mixin notice-blink {
+    @include transition(all .5s ease);
+}

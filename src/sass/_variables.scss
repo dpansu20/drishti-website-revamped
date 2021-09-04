@@ -1,24 +1,9 @@
-/* Lato */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700&display=swap');
 
-/* Open Sans */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600&display=swap');
-
-/* Anonymous Pro */
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700&display=swap');
-
-/* Josefin Sans */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400&display=swap');
-
-
-
-$ff-lato-open: 'Lato', 'Open Sans', sans-serif;
-$ff-anonymous: 'Anonymous Pro', monospace;
-$ff-josefin: 'Josefin Sans', sans-serif;
-$ff-open: 'Open Sans', sans-serif;
-
+// Colors
 
 $white-major: #f0f0ff;
 $red-pink: #dc3c4d;
 $red-pink-light: #f84f60;
 $white-minor: #f8fbfd;
+$background-1: #eeeeee;
+$background-2: #dddddf;
