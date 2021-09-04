@@ -5,11 +5,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    &-brand{
+        display: flex;
+    }
 }
 
-.navBar-brand {
-    display: flex;
-}
 
 .svnit-logo {
     /* display: none; */
@@ -17,45 +18,39 @@
     width: auto;
 }
 
-.drishti-contain {
-    padding-top: .5vh;
-    padding-left: 14px;
+.drishti{
+    &-contain {
+        padding-top: .5vh;
+        padding-left: 14px;
+    }
+    
+    &-logo {
+        height: 54px;
+        width: auto;
+    }
 }
 
-.drishti-logo {
-    height: 54px;
-    width: auto;
-}
+
 
 .navBar-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    @include flex-centered;
 
-.navBar-menu a {
-    text-decoration: none;
-    font-size: 1em;
-    font-weight: 600;
-    color: $white-major;
-    border-bottom: .16em solid transparent;
-    font-family: $ff-lato-open;
-    padding: .25em 10px;
-    margin-left: 35px;
-    text-transform: uppercase;
-    transition: .3s ease;
-    -webkit-transition: .3s ease;
-    -moz-transition: .3s ease;
-    -ms-transition: .3s ease;
-    -o-transition: .3s ease;
-}
+    a {
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 600;
+        color: $white-major;
+        border-bottom: .16em solid transparent;
+        font-family: $ff-lato-open;
+        padding: .25em 10px;
+        margin-left: 35px;
+        text-transform: uppercase;
+        @include transition(.3s ease);
 
-.navBar-menu a:hover {
-    border-bottom: .16em solid $red-pink;
-    color: $red-pink-light;
-    transition: all .25s ease;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
+        &:hover {
+            border-bottom: .16em solid $red-pink;
+            color: $red-pink-light;
+            @include transition(all .25s ease);
+        }
+    }
 }
