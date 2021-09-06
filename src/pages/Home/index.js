@@ -22,7 +22,7 @@ var newStatus = 1;
 let homeNav = [
   {
     name: "Home",
-    link: "/"
+    link: "#"
   }, 
   {
     name: "About Us",
@@ -38,7 +38,7 @@ let homeNav = [
   },
   {
     name: "Team",
-    link: "/team"
+    link: "/drishti-website-revamped/team"
   },
   {
     name: "Contact",

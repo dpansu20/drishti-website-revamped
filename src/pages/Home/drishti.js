@@ -22,6 +22,8 @@ function Drishti(props) {
 
             <Navbar menus={props.nav} />
 
+            <div className="nav-space"></div>
+
             <div className="container">
                 <div className="left-sec">
                     <div className="robotic">

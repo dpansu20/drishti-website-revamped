@@ -2,7 +2,8 @@ import React from "react"
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom";
 
 import Home from "./pages/Home/"
@@ -11,16 +12,17 @@ import Teams from "./pages/Team/"
 
 
 
-function App() {
+const App = () => {
   
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" component= {Home} />
-        <Route path = "/home" component = {Home} />
-        <Route path = "/drishti-website-revamped" component = {Home} />
-        <Route path = "/team" component = {Teams} />
-      </Switch>
+        <Switch>
+          <Route exact path="/drishti-website-revamped" component= {Home} />
+          <Route path = "/drishti-website-revamped/home" component = {Home} />
+          <Route path = "/drishti-website-revamped/team" component = {Teams} />
+
+          <Redirect to="/drishti-website-revamped" />
+        </Switch>
     </Router>
   );
 }
