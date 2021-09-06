@@ -1,21 +1,38 @@
-import React from "react"
+import React, { useState } from "react"
 
 import Svnit from "../../images/svnit.webp"
 import DrishtiNav from "../../images/drishti_white.webp"
 
 
-function Options(props) {
+const Options = (props) => {
     return (
-        <a href={props.link}>
-            {props.obj}
-        </a>
+        <li>
+            <a href={props.link}>
+                {props.obj}
+            </a>
+        </li>
     )
 };
 
 
+
 function Navbar(props) {
+
+    var navHeight = (((window.innerHeight)/100)*25);
+
+    const [styleChange, setStylechange] = useState(false);
+    const changeNavbarStyle = () => {
+        if (window.scrollY >= navHeight) {
+            setStylechange(true);
+        }
+        else {
+            setStylechange(false);
+        }
+    };
+    window.addEventListener('scroll', changeNavbarStyle);
+
     return (
-        <nav className="navBar">
+        <nav className={styleChange ? "navChange" : "navBar"}>
             <div className="navBar-brand">
                 <a href ="http://svnit.ac.in/" className="">
                     <img className="svnit-logo" src={Svnit} alt="SVNIT" />
@@ -25,11 +42,13 @@ function Navbar(props) {
                 </a>
             </div>
             <div className="navBar-menu">
-                {props.menus.map(
-                    function(item, i){
-                        return <Options obj={item.name} link={item.link} key={i} />;
-                    })
-                }
+                <ul>
+                    {props.menus.map(
+                        function(item, i){
+                            return <Options obj={item.name} link={item.link} key={i} />;
+                        })
+                    }
+                </ul>
             </div>
         </nav>
     )
