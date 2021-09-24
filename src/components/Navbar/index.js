@@ -1,17 +1,30 @@
 import React, { useState } from "react"
+import {Link} from "react-router-dom"
+import {HashLink} from "react-router-hash-link"
 
 import Svnit from "../../images/svnit.webp"
 import DrishtiNav from "../../images/drishti_white.webp"
 
 
 const Options = (props) => {
-    return (
-        <li>
-            <a href={props.link}>
-                {props.obj}
-            </a>
-        </li>
-    )
+    if (props.type === "1") {
+        return (
+            <li>
+                <Link to={props.link}>
+                    {props.obj}
+                </Link>
+            </li>
+        )
+    } else if (props.type === "0") {
+        return (
+            <li>
+                <HashLink to={props.link}>
+                    {props.obj}
+                </HashLink>
+            </li>
+        )
+    }
+    
 };
 
 
@@ -45,7 +58,7 @@ function Navbar(props) {
                 <ul>
                     {props.menus.map(
                         function(item, i){
-                            return <Options obj={item.name} link={item.link} key={i} />;
+                            return <Options obj={item.name} link={item.link} type={item.type} key={i} />;
                         })
                     }
                 </ul>
