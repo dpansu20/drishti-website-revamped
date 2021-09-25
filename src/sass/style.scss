@@ -4,12 +4,28 @@
 @import "mixin";
 
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-.main{
+.main {
   overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #202632;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #52617e;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
 
 

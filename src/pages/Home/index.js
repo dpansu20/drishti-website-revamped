@@ -22,27 +22,33 @@ var newStatus = 1;
 let homeNav = [
   {
     name: "Home",
-    link: "#"
+    link: "#",
+    type: "0"
   }, 
   {
     name: "About Us",
-    link: "#about"
+    link: "#about",
+    type: "0"
   },
   {
     name: "Gallery",
-    link: "#gallery"
+    link: "#gallery",
+    type: "0"
   },
   {
     name: "Projects",
-    link: "#projects"
+    link: "#projects",
+    type: "0"
   },
   {
     name: "Team",
-    link: "/drishti-website-revamped/team"
+    link: "/team",
+    type: "1"
   },
   {
     name: "Contact",
-    link: "#footer"
+    link: "#footer",
+    type: "0"
   }];
 
 
