@@ -47,11 +47,11 @@ function Drishti(props) {
                         </Typed>
 
                         <a className="explore" href="#about">
-                            Explore 
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                            Explore
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <FontAwesomeIcon icon="chevron-down" className="down" />
                         </a>
-                        <br/>
+                        <br />
                         <a className={classnames('notices', props.notice[1])} href={props.notice[0]}>
                             <span className="before">Important Notices</span>
                             <span className="after">Exciting News coming up!!</span>
