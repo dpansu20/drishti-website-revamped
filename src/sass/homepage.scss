@@ -6,7 +6,7 @@
     height: 100vh;
     width: 100%;
     background: {
-        image: url("../images/firstDiv/section_1_back_landscape.webp");
+        image: url("../images/firstDiv/section_1_back_landscape.jpg");
         size: cover;
         repeat: no-repeat;
         position: center;
@@ -48,7 +48,7 @@
         }
 
         .index-circle {
-            @include robo(78.5%,82%,18%,60);
+            @include robo(78.5%,82%,18%,40);
         }
 
         .quadrilateral {
@@ -497,7 +497,7 @@
 
 @media only screen and (max-width: 768px) {
     .first-div {
-        background-image: url("../images/firstDiv/section_1_back_portrait.webp");
+        background-image: url("../images/firstDiv/section_1_back_portrait.jpg");
     }
 }
 
