@@ -1,6 +1,6 @@
 import React from "react"
 
-import classnames from "classnames"
+import classnames from "classnames"    // For using multiple classes in an element
 import Typed from "react-typed"
 import "react-typed/dist/animatedCursor.css"
 
@@ -18,6 +18,7 @@ import Arrow from "../../images/firstDiv/arrow.gif"
 
 
 function Drishti(props) {
+
     return (
         <div className="first-div">
 
