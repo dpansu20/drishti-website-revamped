@@ -44,7 +44,6 @@
                     text-decoration: none;
                     font-size: 1em;
                     font-weight: 600;
-                    color: $white-major;
                     border-bottom: .16em solid transparent;
                     font-family: $ff-lato-open;
                     padding: .25em 10px;
@@ -52,9 +51,39 @@
                     text-transform: uppercase;
     
                     &:hover {
-                        border-bottom: .16em solid $red-pink;
-                        color: $red-pink-light;
+                        border-bottom-width: .16em; 
+                        border-bottom-style: solid;
                         @include transition(all .25s ease);
+                    }
+                }
+            }
+        }
+    }
+
+    .dark {
+        ul {
+            li {
+                a {
+                    color: $black-gray;
+
+                    &:hover {
+                        border-bottom-color: $red-pink;
+                        color: $red-pink-light;
+                    }
+                }
+            }
+        }
+    }
+
+    .light {
+        ul {
+            li {
+                a {
+                    color: $white-major;
+
+                    &:hover {
+                        border-bottom-color: $red-pink;
+                        color: $red-pink-light;
                     }
                 }
             }
@@ -117,7 +146,7 @@
                     text-transform: uppercase;
     
                     &:hover {
-                        border-bottom: .2em solid $red-pink-light;
+                        border-bottom: .2em solid $red-pink;
                         color: $red-pink-light;
                         @include transition(all .25s ease);
                     }

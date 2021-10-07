@@ -7,7 +7,12 @@ import {
 } from "react-router-dom"
 
 import Home from "./pages/Home/"
+
 import Teams from "./pages/Team/"
+import Faculty from "./pages/Team/Faculty/"
+import Developers from "./pages/Team/Developers/"
+
+
 import Notices from "./pages/Notices/"
 import Gallery from "./pages/Gallery/"
 import Achievements from "./pages/Achievements/"
@@ -24,7 +29,11 @@ const App = () => {
         <Switch>
           <Route exact path="/" component= {Home} />
           <Route path = "/home" component = {Home} />
+
           <Route path = "/team" component = {Teams} />
+          <Route path = "/faculty" component = {Faculty} />
+          <Route path = "/developers" component = {Developers} />
+
           <Route path = "/notice" component = {Notices} />
           <Route path = "/gallery" component = {Gallery} />
           <Route path = "/projects" component = {Projects} />
