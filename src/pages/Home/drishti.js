@@ -22,7 +22,7 @@ function Drishti(props) {
     return (
         <div className="first-div">
 
-            <Navbar menus={props.nav} />
+            <Navbar menus={props.nav} theme="Light" />
 
             <div className="nav-space"></div>
 

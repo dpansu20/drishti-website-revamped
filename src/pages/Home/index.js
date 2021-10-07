@@ -5,7 +5,7 @@ import About from "./about.jsx"
 import Gallery from "./gallery.jsx"
 import Event from "./event.jsx"
 import Project from "./project.jsx"
-// import Footer from "./components/Footer"
+// import Footer from "../../components/Footer"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -71,6 +71,7 @@ function Home() {
       <Gallery />
       <Event />
       <Project />
+      {/* <Footer /> */}
     </div>
   );
 }
